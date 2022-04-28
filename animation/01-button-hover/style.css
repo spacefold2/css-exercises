@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
+  transition: width 2s, height 2s;
 }
 
 button {
@@ -16,4 +17,10 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  transition-property: font-size;
 }
+
+button:hover {
+  width: 200px;
+  height: auto;
+  font-size: 36px}
