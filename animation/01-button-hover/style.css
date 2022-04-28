@@ -17,10 +17,12 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
-  transition-property: font-size;
+  transition: .5s;
+  
 }
 
 button:hover {
-  width: 200px;
-  height: auto;
-  font-size: 36px}
+  
+  transform: scale(1.25);
+  
+}
